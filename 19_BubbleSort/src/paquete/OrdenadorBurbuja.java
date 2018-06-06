@@ -1,6 +1,6 @@
 package paquete;
 
-public class BubbleSort {
+public class OrdenadorBurbuja {
 	
 	public void ordenar(int [] array) {
 		int aux;
