@@ -1,0 +1,19 @@
+package paquete;
+
+class Main {
+
+	public static void main(String[] args) {
+		// Arrays
+		int x[];
+		x = new int[10];
+		for(int i=1; i<11; i++) {
+			if(i > 10) {
+				break;
+			} else {
+				x[i] += i + 2;
+				System.out.println("Posición: " + i + ", valor de x " + x[i]);
+			}
+		}
+	}
+
+}

@@ -1,0 +1,17 @@
+package paquete;
+
+class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int arr[][] = new int[3][3];
+		
+		for(int x=0; x < 6; x++) {
+			for(int y=0; y < 6; y++) {
+				arr[x][y] = y;
+				System.out.println("Arr posicion x:" + x + " posicion y: " + y + ", valor: "+ arr[x][y]);
+			}
+		}
+	}
+
+}
