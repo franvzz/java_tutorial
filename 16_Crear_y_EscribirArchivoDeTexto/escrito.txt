@@ -1,0 +1,2 @@
+Linea de texto 
+Mi archivo de texto creado con java
